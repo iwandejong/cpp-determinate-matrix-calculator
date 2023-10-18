@@ -1,4 +1,4 @@
-# cpp-determinate-matrix-calculator
+# Determinate Matrix Calculator (C++)
 
 ## Description
 
