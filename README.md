@@ -49,33 +49,7 @@ Follow these instructions to get the project up and running on your local machin
 
 ### Usage
 
-You can use the Determinant Matrix Calculator as a library in your own C++ projects. Include the `determinant_calculator.h` header in your code, and call the `calculateDeterminant` function with your matrix as an input. Here's an example:
-
-```cpp
-#include "determinant_calculator.h"
-#include <iostream>
-#include <vector>
-
-int main() {
-    // Define your square matrix as a vector of vectors
-    std::vector<std::vector<double>> matrix = {
-        {1, 2, 3},
-        {4, 5, 6},
-        {7, 8, 9}
-    };
-
-    // Calculate the determinant
-    double determinant = calculateDeterminant(matrix);
-
-    std::cout << "Determinant: " << determinant << std::endl;
-
-    return 0;
-}
-```
-
-### Example
-
-An example matrix and output is provided in the `example` directory. You can build and run this example to see the Determinant Matrix Calculator in action.
+You can use the Determinant Matrix Calculator as a library in your own C++ projects. Include the `determinant_calculator.h` header in your code, and call the `calculateDeterminant` function with your matrix as an input. Check out the `main.cpp` for an example.
 
 ## License
 
